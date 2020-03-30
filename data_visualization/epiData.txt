@@ -1,0 +1,51 @@
+ID	Location	SampleDate	Food1	Food2	Food3	Food4
+CGT2049	Virginia	2019-04-26	 	 	Chorizo	
+CGT2054	Ohio	2018-11-24	Beef	 		Apples
+CGT2060	Ohio	2018-09-03	 	 	Chorizo	
+CGT2103	Florida	2019-01-01	Chips	 	Melons	Wheat bread
+CGT2123	Georgia	2018-10-13	Celery	 	Melons	
+CGT2149	New York	2018-08-24	Grilled chicken	Lettuce	Chorizo	Apples
+CGT2164	Georgia	2018-07-24	Celery	 	Chorizo	Wheat bread
+CGT2202	Virginia	2018-08-02	Beef	 	Chorizo	
+CGT2211	California	2019-05-13	Celery	 		Avocado
+CGT2224	Ohio	2018-12-08	Celery	Chocolate		Avocado
+CGT2235	New York	2018-12-06	Beef	Lettuce		Wheat bread
+CGT2260	Virginia	2018-08-23	Beef	Chocolate		
+CGT2278	Virginia	2018-12-31	Grilled chicken	 		
+CGT2282	Kansas	2019-04-23	Grilled chicken	 		Avocado
+CGT2321	Washington	2019-01-03	Beef	Lettuce	Chorizo	
+CGT2330	California	2018-11-26	Beef	Lettuce	Melons	Wheat bread
+CGT2347	Kansas	2019-04-30	 	Chocolate	Oranges	Apples
+CGT2348	New York	2018-09-10	 	Chocolate	Chorizo	Apples
+CGT2371	Virginia	2019-02-10	 	Cheese	Cookie batter	Wheat bread
+CGT2375	Georgia	2019-01-07	 	Lettuce	Melons	Avocado
+CGT2378	Ohio	2018-06-29	Beef	Chocolate		
+CGT2406	Virginia	2018-08-06	Beef	 		Apples
+CGT2448	Massachusetts	2018-12-21	 	 	Cookie batter	Wheat bread
+CGT2477	Washington	2019-02-18	Grilled chicken	 	Oranges	Avocado
+CGT2483	New York	2018-09-10	Chips	 	Melons	
+CGT2486	Virginia	2019-01-28	Chips	Lettuce	Chorizo	Apples
+CGT2490	Virginia	2019-02-02	Beef	Chocolate		Avocado
+CGT2491	New York	2019-02-02	Celery	 		
+CGT2550	New York	2018-10-14	Beef	 		
+CGT2564	Virginia	2019-05-12	Celery	 	Chorizo	
+CGT2582	Ohio	2018-12-05	 	 	Chorizo	Avocado
+CGT2587	New York	2018-11-09	Chips	Chocolate		Apples
+CGT2648	Virginia	2019-01-26	 	Lettuce	Cookie batter	
+CGT2681	Ohio	2018-12-24	Celery	 	Chorizo	Wheat bread
+CGT2682	New York	2018-08-31	 	Lettuce	Oranges	
+CGT2704	Ohio	2019-02-04	Grilled chicken	 		
+CGT2726	California	2019-04-07	Chips	 	Chorizo	Apples
+CGT2730	Ohio	2018-08-10	Chips	Lettuce		Avocado
+CGT2761	Kansas	2018-11-24	 	 		Avocado
+CGT2779	Ohio	2018-10-04	Grilled chicken	Lettuce	Oranges	
+CGT2795	Florida	2018-12-15	Chips	Cheese	Melons	Avocado
+CGT2798	Kansas	2019-02-16	Celery	Chocolate		Avocado
+CGT2849	Kansas	2019-01-20	Beef	 	Melons	Avocado
+CGT2867	New York	2018-08-28	Grilled chicken	Lettuce	Oranges	
+CGT2877	California	2018-07-16	Celery	 	Melons	Avocado
+CGT2901	Georgia	2019-02-23	Grilled chicken	Lettuce	Melons	Wheat bread
+CGT2902	Kansas	2018-10-16	Celery	 		Apples
+CGT2907	California	2018-11-18	 	 	Oranges	Avocado
+CGT2984	Washington	2018-07-14	Celery	 	Chorizo	Wheat bread
+CGT2998	Washington	2019-01-21	Grilled chicken	 	Oranges	Apples
