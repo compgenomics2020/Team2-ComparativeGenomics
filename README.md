@@ -48,7 +48,20 @@ $ ./fastANI --ql [QUERY_LIST] --rl [REFERENCE_LIST] -o [OUTPUT_FILE]
 For our website, we will produce a python wrapper which used subprocess call to call FastANI, check input file, parameters passed to FastANI via the wrapper and also whether FastANI executable exist in the our conda working environment.
 
 ## MLST
+### Installing MLST
+	conda install -c bioconda mlst
+### Running MLST
 
+* We use the campylobacter scheme from PubMLST database for running the tool
+* Input file format: Contig fasta files
+
+	mlst --csv --legacy --scheme --campylobacter <input_fasta_file> > <mlst_output_csv>
+For our website we have a python wrapper script that checks the input files, output directory and calls MLST on the campylobacter scheme.
+ 
+### Visualising MLST results for the website
+
+#### We have a python scripts that creates a simple visualisation of the mlst results, depicting the STs detected and the sample names belonging to each ST
+	python3 mlst_viz.py <mlst_output_csv> <output_directory>
 ## SNP Typing
 ### Installing Ksnp3.1
 	wget https://sourceforge.net/projects/ksnp/files/kSNP3.1_Linux_package.zip
