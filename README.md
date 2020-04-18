@@ -56,7 +56,7 @@ For our website, we will produce a python wrapper which used subprocess call to 
 * Input file format: Contig fasta files
 
 	mlst --csv --legacy --scheme --campylobacter <input_fasta_file> > <mlst_output_csv>
-For our website we have a python wrapper script that checks the input files, output directory and calls MLST on the campylobacter scheme.
+* For our website we have a python wrapper script that checks the input files, output directory and calls MLST on the campylobacter scheme.
  
 ### Visualising MLST results for the website
 
