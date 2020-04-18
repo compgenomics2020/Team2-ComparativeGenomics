@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 This script creates a simple visualisation of the sequence types detected by the MLST tool for the web server.
 '''
 
-def mlst_viz(mlst_result_path):
+def mlst_viz(mlst_result_path,output_path):
 	
 	#Reading the mlst results
 	st_dic={}
@@ -39,7 +39,6 @@ def mlst_viz(mlst_result_path):
 	fig, ax = plt.subplots()
 	for st in st_size.keys():
 		colors = np.random.rand(3,)
-		print(colors)
 		cent_x=cent_x+1+st_size[st]
 		centre=(cent_x,1)
 		cent_y=0
@@ -60,7 +59,8 @@ def mlst_viz(mlst_result_path):
 	ax.set_ylim(-(count/(st_count)),4)
 	plt.plot([-2,rad], [-(count/(st_count)),4], alpha=0)
 	plt.axis("off")
-	fig.savefig('plotcircles.png')
+	out_file=output_path+'/'+"mlst_viz.png"
+	fig.savefig(out_file)
 		
 
 
@@ -69,6 +69,7 @@ def mlst_viz(mlst_result_path):
 
 def main():
 	mlst_input=sys.argv[1]
-	mlst_viz(mlst_input)
+	mlst_viz_output=sys.argv[2]
+	mlst_viz(mlst_input,mlst_viz_output)
 if __name__ == "__main__":
         main()
